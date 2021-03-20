@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<style>
+    .center{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 57px;
+        width: 26%;
+    }
+    form {
+        background-color: white;
+        width: 500px;
+        height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border: 1.5px solid rgb(77, 75, 75);
+        opacity: 20%;
+    }
+    input {
+        all: unset;
+        font: 16px system-ui;
+        color: black;
+        height: 100%;
+        width: 100%;
+        padding: 6px 10px;
+    }
+    ::placeholder {
+        color: grey;
+        opacity: 0.7;
+    }
+    #container{
+        text-align: center;
+        margin-top: 20px;
+    }
+    #button1 {
+        display:inline-block;
+        border:none;
+        margin-right:10px;
+    }
+    #button2 {
+        display:inline-block;
+        border:none;
+    }
+</style>
+    <head>
+        <meta charset="UTF-8">
+        <title>Google</title>
+    </head>
+    <body>
+        <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="googlelogo" class="center">
+        <form id="form" role="search">
+            <input type="search" id="query" name="q" class="search"
+            placeholder="Search..."
+            aria-label="Search Web">
+        </form>
+        <div id="container">
+            <button id="button1">Google Search</button><button id="button2">I'm Feeling Lucky</button>
+        </div>
+    </body>
+</html>
